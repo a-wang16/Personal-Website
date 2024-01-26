@@ -1,3 +1,7 @@
+body{
+    font-family: Helvetica;
+    background-color: gray;
+}
 h1 {
     display: inline-block;
     padding: 0 2%;
@@ -6,7 +10,6 @@ h1 {
     margin: 20px 0 15px 15px;
     color: #fff;
     background-color: hsl(207, 31%, 50%);
-    font-family: Helvetica;
     font-weight: normal;
 }
 .logo {
@@ -22,6 +25,133 @@ h1 {
     background-size: 100%;
 }
 
+
+.nav-bar{
+    position: fixed;
+    height: 250px; 
+    width: 250px;
+    bottom: -40px;
+    left: 10px;
+    font-size: 1em;
+}
+
 #qual{
-    
+    margin: 0 0 0 25px;
+    padding: 0 2%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: hsl(207, 31%, 50%);
+}
+#qual:link{
+    text-decoration: none;
+}
+#qual-button{
+    display: inline-block;
+    position: relative;
+    background: url(Icons/button.svg);
+    top: 20px;
+    left: 105px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#tech{
+    margin: 0 0 0 -55px;
+    padding: 0 2%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: hsl(207, 31%, 50%);
+}
+#tech:link{
+    text-decoration: none;
+}
+#tech-button{
+    display: inline-block;
+    position: relative;
+    background: url(Icons/button.svg);
+    top: 20px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#serv{
+    margin: 0 0 0 7px;
+    padding: 0 2%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: hsl(207, 31%, 50%);
+}
+#serv:link{
+    text-decoration: none;
+}
+#serv-button{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 69px;
+    background: url(Icons/button.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#ai{
+    margin: 50px 0 0 0;
+    padding: 0 2%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: hsl(207, 31%, 50%);
+}
+#ai:link{
+    text-decoration: none;
+}
+#ai-button{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background: url(Icons/button.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#home{
+    margin: 0 0 0 -23px;
+    padding: 0 2%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: hsl(207, 31%, 50%);
+}
+#home:link{
+    text-decoration: none;
+}
+#home-button{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 34px;
+    background: url(Icons/button.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#active{
+    background: url(Icons/button-active.svg);
+    width: 50px;
+    height: 50px;
 }
