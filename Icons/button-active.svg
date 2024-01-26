@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:krita="http://krita.org/namespaces/svg/krita"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-    width="103.464pt"
-    height="103.464pt"
-    viewBox="0 0 103.464 103.464">
+    width="36pt"
+    height="36pt"
+    viewBox="0 0 36 36">
 <defs/>
-<rect id="shape0" transform="translate(14.4, 13.44)" fill="#f9dbdb" fill-rule="evenodd" stroke="#f9dbdb" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" width="91.68" height="91.44"/>
+<path id="path8489" transform="matrix(0.072 0 0 0.072 0.900704231999999 1.129518648)" fill="#82d322" stroke="#82d322" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M236.961 473.921L0 236.961L236.961 0L473.921 236.961Z" sodipodi:nodetypes="ccccc"/>
 </svg>

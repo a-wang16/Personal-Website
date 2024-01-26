@@ -1,6 +1,8 @@
 body{
     font-family: Helvetica;
-    background-color: gray;
+    background-image: linear-gradient(to top right, rgb(213, 241, 252), rgb(170, 223, 173));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 h1 {
     display: inline-block;
@@ -9,7 +11,7 @@ h1 {
     font-size: 2em;
     margin: 20px 0 15px 15px;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
     font-weight: normal;
 }
 .logo {
@@ -42,7 +44,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
 }
 #qual:link{
     text-decoration: none;
@@ -65,7 +67,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
 }
 #tech:link{
     text-decoration: none;
@@ -88,7 +90,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
 }
 #serv:link{
     text-decoration: none;
@@ -111,7 +113,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
 }
 #ai:link{
     text-decoration: none;
@@ -134,7 +136,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: hsl(207, 31%, 50%);
+    background-color: #003052;
 }
 #home:link{
     text-decoration: none;
@@ -150,8 +152,53 @@ h1 {
     background-repeat: no-repeat;
 }
 
-#active{
+#home-active{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 34px;
     background: url(Icons/button-active.svg);
     width: 50px;
     height: 50px;
+    background-repeat: no-repeat;
+}
+#qual-active{
+    display: inline-block;
+    position: relative;
+    background: url(Icons/button-active.svg);
+    top: 20px;
+    left: 105px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+#tech-active{
+    display: inline-block;
+    position: relative;
+    background: url(Icons/button-active.svg);
+    top: 20px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+#serv-active{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 69px;
+    background: url(Icons/button-active.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+#ai-active{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    background: url(Icons/button-active.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
 }
