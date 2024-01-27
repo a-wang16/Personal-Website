@@ -1,8 +1,16 @@
 body{
     font-family: Helvetica;
-    background-image: linear-gradient(to top right, rgb(213, 241, 252), rgb(170, 223, 173));
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url(Images/grid.png), linear-gradient(to top right, rgb(213, 241, 252), rgb(220, 255, 221));
+    background-attachment: fixed, fixed;
+    background-repeat: repeat, no-repeat;
+}
+
+
+
+header{
+    top: 5px;
+    height: 100px;
+    position: sticky;
 }
 h1 {
     display: inline-block;
@@ -27,24 +35,62 @@ h1 {
     background-size: 100%;
 }
 
+#self-photo{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+#image-desc{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    padding: 0 1%;
+    border-radius: 25px;
+    text-align: center;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+}
+.about-me{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 0 2%;
+    font-size: 1.5em;
+    border-radius: 25px;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+}
 
+/*************************************\
+|*  CUSTOM (SCUFFED) NAVIGATION BAR  *|
+\*************************************/
 .nav-bar{
     position: fixed;
-    height: 250px; 
+    padding: 0 10px;
+    border-radius: 25px;
+    height: 210px; 
     width: 250px;
-    bottom: -40px;
-    left: 10px;
+    top: 10px;
+    right: 10px;
     font-size: 1em;
+    display: inline-block;
+    background-image: linear-gradient(to bottom left, rgb(77, 146, 68), rgb(220, 255, 221));
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #qual{
-    margin: 0 0 0 25px;
+    margin: 0 0 0 20px;
     padding: 0 2%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: #003052;
+    background-color: #00521b;
 }
 #qual:link{
     text-decoration: none;
@@ -54,20 +100,20 @@ h1 {
     position: relative;
     background: url(Icons/button.svg);
     top: 20px;
-    left: 105px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
 
 #tech{
-    margin: 0 0 0 -55px;
+    margin: 0 0 0 -40px;
     padding: 0 2%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: #003052;
+    background-color: #00521b;
 }
 #tech:link{
     text-decoration: none;
@@ -90,7 +136,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: #003052;
+    background-color: #00521b;
 }
 #serv:link{
     text-decoration: none;
@@ -113,7 +159,7 @@ h1 {
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: #003052;
+    background-color: #00521b;
 }
 #ai:link{
     text-decoration: none;
@@ -130,13 +176,13 @@ h1 {
 }
 
 #home{
-    margin: 0 0 0 -23px;
+    margin: 0 0 0 -33px;
     padding: 0 2%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
     color: #fff;
-    background-color: #003052;
+    background-color: #00521b;
 }
 #home:link{
     text-decoration: none;
@@ -145,18 +191,19 @@ h1 {
     display: inline-block;
     position: relative;
     top: 20px;
-    left: 34px;
+    left: 24px;
     background: url(Icons/button.svg);
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
 
+/* A lot of redundant code, but my current skills are too limited :( */
 #home-active{
     display: inline-block;
     position: relative;
     top: 20px;
-    left: 34px;
+    left: 24px;
     background: url(Icons/button-active.svg);
     width: 50px;
     height: 50px;
@@ -167,7 +214,7 @@ h1 {
     position: relative;
     background: url(Icons/button-active.svg);
     top: 20px;
-    left: 105px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;

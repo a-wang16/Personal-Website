@@ -5,31 +5,42 @@
         <link rel="stylesheet" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
     </head>
     <body>
-        <section class="landing">
+        <header>
             <span class="logo"></span>
             <h1>Home</h1>
+        </header>
+        <section class="landing">
+            <div id="image-desc">
+                <img id="self-photo" src="Images/me.jpg" width="800px" height="800px">
+                <p>
+                    <i>Figure 1. There's only one figure (me), so it's figure 1.</i>
+                </p>
+            </div>
             <div class="about-me">
                 <p>
-                    Howdy! I'm Allen Wang, an aspiring Computer Science 
-                    undergraduate with a minor in Game Design. Currently attending TAMU.
+                    <b>Howdy!</b><br> 
+                    I'm Allen Wang, a: 
+                    <ul>
+                        <li>Computer Science 
+                            undergraduate with a minor in Game Design at <a href="https://www.tamu.edu/index.html">Texas A&M</a></li>
+                        <li>Hobbyist in digital art, video games, and music</li>
+                        <li>Person who is trying his best at everything he tries</li>
+                    </ul>
                 </p>
                 <p>
-                    Feel free to explore what I have to offer in the 
-                    Qualifications page, or see how I've given back to 
-                    the community in the Service Section. If you're interested 
-                    in my projects, turn your attention to the Technical section.
-                </p>
-                <p>
-                    If you're looking for something more silly, check out the AI-Generated
-                    section for an interesting "experiment" I tried!
+                    Feel free to explore what I have to offer in the <u>Qualifications</u> page. <br>
+                    If you're interested in my projects, turn your attention to the <u>Technical</u> page.<br>
+                    Otherwise, turn your attention to the <u>Service</u> page for how I gave back to the community. <br>
+                    If you're looking for something more silly, check out the <u>AI Fun</u>
+                    page for an interesting "experiment" I tried!
                 </p>
             </div>
         </section>
-        <aside class="nav-bar">
+        <aside class="nav-bar"> <!-- This custom nav bar was NOT WORTH IT (without libraries) -->
             <div><a href="qual.html" id="qual-button"></a><a id="qual" href="qual.html">Qualifications</a></div>
             <div>
                 <a href="tech.html" id="tech-button"></a>
-                <a id="tech" href="tech.html">Tech Portfolio</a>
+                <a id="tech" href="tech.html">Technical</a>
                 <a href="service.html" id="serv-button"></a>
                 <a id="serv" href="service.html">Service</a>
             </div>
