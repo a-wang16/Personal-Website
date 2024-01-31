@@ -2,12 +2,17 @@
 <html>
     <head>
         <title>Allen Wang: Landing</title>
-        <link rel="stylesheet" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
+        <link rel="stylesheet" id="css" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
     </head>
     <body>
+        <script src="functions.js"></script>
         <header>
-            <span class="logo"></span>
+            <img class="logo"  src="Icons/logo.svg" width="100px" height="100px"></img>
             <h1>Home</h1>
+            <label class="switch">
+                <input type="checkbox" id="css-toggle" onclick="swapCSS()">
+                <span class="slider round"></span>
+            </label>
         </header>
         <section class="landing">
             <div id="image-desc">
