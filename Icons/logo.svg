@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:krita="http://krita.org/namespaces/svg/krita"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-    width="840.024pt"
-    height="840.024pt"
-    viewBox="0 0 840.024 840.024">
+    width="840pt"
+    height="840pt"
+    viewBox="0 0 840 840">
 <defs/>
-<path id="shape0" transform="matrix(-1 0 0 -1 818.53223711906 719.999995909466)" fill="#4ed082" fill-rule="evenodd" stroke="#4ed082" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" d="M173.412 134.88L572.112 0L398.532 465.69L0 600.231Z" sodipodi:nodetypes="ccccc"/><path id="shape1" transform="matrix(1 0 0 -1 21.4677628809401 719.999995909466)" fill="#003052" fill-rule="evenodd" stroke="#003052" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" d="M173.412 134.88L572.112 0L398.532 465.69L0 600.231Z" sodipodi:nodetypes="ccccc"/>
+<path id="shape1" transform="matrix(-0.999999995829029 0 0 -0.999999995829029 818.532233704986 720.000002710643)" fill="#4ed082" fill-rule="evenodd" stroke="#4ed082" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" d="M173.412 134.88L572.112 0L398.532 465.69L0 600.231Z" sodipodi:nodetypes="ccccc"/><path id="shape0" transform="matrix(1 0 0 -1 21.4677628809401 719.999995909466)" fill="#b8f4f5" fill-rule="evenodd" stroke="#b8f4f5" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" d="M173.412 134.88L572.112 0L398.532 465.69L0 600.231Z" sodipodi:nodetypes="ccccc"/>
 </svg>

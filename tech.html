@@ -11,16 +11,6 @@
             <h1>Technical Portfolio</h1>
             <button id="css-toggle" onclick="swapCSS()"><img src="Icons/swap.png" width="25px" height="25px"></img></button>
         </header>
-        <section class="landing">
-            <div class="git projects">
-                Many of these are just a work-in-progress or planned, but here are few noteworthy ones!
-                <ul>
-                    <li><a href="https://github.com/PotatoCurry/orbital-simulator">Orbital Simulator</a>: An early project written in Python simulating the physics of the four inner planets</li>
-                    <li>Custom Discord Bot: A private reposity, but a first look into API calls. Written in Python.</li>
-                    <li>More to be added...</li>
-                </ul>
-            </div>
-        </section>
         <ul class="nav-bar">
             <li>
                 <a href="index.html" id="home-button"></a>
@@ -43,4 +33,53 @@
                 <a id="ai" href="ai.html">AI Fun</a>
             </li>
         </ul>
+        <section class="technical">
+            <div id="image-desc">
+                <img id="self-photo" src="Images/interview.png" width="500px" height="500px">
+                <p>
+                    <i>Figures 2. An idealized manner of creating projects. In reality, verbalizing an entire project to AI is difficult.</i>
+                </p>
+            </div>
+            <div class="git-projects">
+                Many of these are just a work-in-progress or planned, but here are a few noteworthy ones!
+                <ul>
+                    <li>
+                        <a href="https://github.com/PotatoCurry/orbital-simulator">Orbital Simulator</a>: My first collaborative project written in Python simulating 
+                        the physics of the four inner planets. The simulation can run in real-time or up to 1,000,000x speed.
+                    </li>
+                    <img class="project-photos" src="Images/OrbitalSim.png" width="1000px" height="40px">
+                    <li>
+                        Custom Discord Bot: A private repository which was my first look into the <a href="https://discord.com/developers/docs/reference">Discord API</a>, a popular social platform
+                        I utilize. An earlier project with many errors, this was one of the first steps into the coding scene and sparked a passion to combine fun, interactivity, programming, and utility.
+                        Written in Python and currently hosted on a personal server.
+                    </li>
+                    <img class="project-photos" src="Images/DiscordBot.png" width="1000px" height="40px">
+                    <li>
+                        (WIP) HTTP Web Crawler/ScuffedCrawler: A C++ project for my Networks and Distributed Processing class that utilizes HTTP1.0 calls. 
+                        Utilizes <a href="https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket">Windows-based sockets </a> to connect
+                        to a list of URLs that run on the HTTP protocol. Supports multiple threads and respects the <a href="https://en.wikipedia.org/wiki/Robots.txt">Robots Exclusion Protocol.</a>
+                        Does not include HTTPS protocols.
+                    </li>
+                    <img class="project-photos" src="Images/WebCrawler.png" width="1000px" height="40px">
+                    <li>
+                        (Planned) Custom Raytracing Engine: An engine utilizing CMake and C++ that mimics graphical raytracing. The final project of the Computer
+                        Graphics course alongside other rendering projects.
+                    </li>
+                    <p></p>
+                    <li>
+                        (Planned) Project V: A custom face tracking software utilizing NVIDIA to create a virtual avatar through tracking facial features. A marriage between
+                        a hobby of mine and programming, this project helps create a bridge to fine tune virtual avatar softwares into accepting or enabling a larger range of expressions.
+                    </li>
+                    <p></p>
+                    <li>
+                        (Planned) Project µ: A rhythm-based hack-and-slash game utilizing the Godot engine. This project is one of my biggest ambitions as I hope to self-publish this
+                        game in a polished state.
+                        Inspired by <a href="https://www.supergiantgames.com/games/hades/">Hades</a> the game and <a href="https://bethesda.net/en-US/game/hifirush">Hi-Fi RUSH</a>, I plan
+                        to develop an in-depth world of characters with rhythmic concepts as power-ups and combat mechanics. <br>
+                        I plan to do both the creative and technical designs of this game. 
+                    </li>
+                </ul>
+                All other unlisted projects can be found on my <a href="https://github.com/a-wang16">GitHub.</a>
+            </div>
+        </section>
     </body>

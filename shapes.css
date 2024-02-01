@@ -10,10 +10,9 @@ body{
 header{
     top: 10px;
     height: 130px;
-    width: 1000px;
-    display: inline-block;
     position: sticky;
-    z-index: 5;
+    margin: 0 auto;
+    z-index: 1;
 }
 h1 {
     display: inline-block;
@@ -51,10 +50,12 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     position: fixed;
-    top: 17px;
-    right: 12px;
+    padding: 0.5% 0.5%;
+    top: 10px;
+    right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    z-index: 2;
 }
 
 #home{
@@ -233,31 +234,80 @@ ul.nav-bar {
 \*************************************/
 
 /* Home/Landing Page */
-.landing{
+section{
+    display: inline-grid;
     position: relative;
-    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    /* background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223)); */
     border-radius: 25px;
+    grid-template-columns: 500px auto 190px;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 #image-desc{
-    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
     position: relative;
-    border-radius: 25px;
+    padding: 2% 2%;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
     text-align: center;
+    border-radius: 25px;
     font-size: 1em;
 }
 
 #self-photo{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
+    padding: 2% 2%;
     object-fit: cover;
     border-radius: 25px;
     padding: 2%, 2%;
 }
 
 .about-me{
-    display: grid;
-    position: relative;
-    font-size: 1.5em;
+    padding: 0 3% 3% 3%;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    font-size: 1.4em;
     border-radius: 25px;
+}
+
+iframe{
+    display: grid;
+    padding: 2% 2%;
+    border: none;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    border-radius: 25px;
+}
+
+#resume{
+    width: 850px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#resume-details{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 3% 3%;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    border-radius: 25px;
+}
+
+.git-projects{
+    padding: 3% 3%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    border-radius: 25px;
+}
+
+.project-photos{
+    padding: 1% 0;
+    object-fit: cover;
+    border-radius: 50px;
 }
