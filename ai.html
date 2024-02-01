@@ -1,85 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Allen Wang: AI Q&A</title>
-        <link rel="stylesheet" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
+        <title>Allen Wang: Landing</title>
+        <link rel="stylesheet" id="css" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
+        <script src="functions.js"></script>
     </head>
     <body>
-        <header>
-            <span class="logo"></span>
-            <h1>Q&A With AI: ChatGPT on LLMs</h1>
-        </header>
-        <section class="q&a">
-            <div id="image-desc">
-                <img id="self-photo" src="Images/interview.png" width="800px" height="800px">
-                <p>
-                    <i>Figure 2. Two figures, me and AI. They go by ChatGPT</i>
-                </p>
-            </div>
-            <div class="interview">
-                <p>
-                    <p>Pre-interview notes: All questions asked (in italics) are prompted after the initial prompt.</p>
-                    <b>Initial prompt:</b> Pretend you are an interviewee on a talk show. I am interviewing you about
-                    <abbr title="Large Language Models">LLMs</abbr> and how well you can respond. This is your first question:
-                </p>
-                <p>
-                    <i>Welcome back to chatting with AI. I'm your host, Allen Wang.
-                    Who is this wonderful <abbr title="Large Language Model">LLM</abbr> in front of me?</i>
-                </p>
-                <p>
-                    Thank you, Allen! I'm <a href="https://chat.openai.com/">ChatGPT,</a> a Language Model developed by OpenAI, specifically part of the GPT-3.5 architecture. LLM stands for Large Language Model, and I'm designed to understand and generate human-like text based on the input I receive. My purpose is to assist and provide information on a wide range of topics, engage in conversations, and hopefully, make our interaction both informative and enjoyable. So, feel free to ask me anything, and let's dive into our conversation!
-                </p>
-                <p>
-                    <i>Wow, that's a rather lengthy intro you gave. Now here's my first question: Do you think one day you'll be able to pass the <a href="https://en.wikipedia.org/wiki/Turing_test">Turing Test</a>? If not, how come?</i>
-                </p>
-                <p>
-                    That's a thought-provoking question, Allen. The Turing Test is a measure of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. While I can generate human-like text and engage in conversations, achieving a perfect Turing Test performance remains a challenging goal. <br>
-                    There are several reasons for this. Firstly, my responses are based on patterns and information present in the data I was trained on, and I don't have consciousness, self-awareness, or a true understanding of the world. Additionally, I might generate plausible-sounding answers without actual comprehension. <br>
-                    Moreover, the Turing Test itself has its critics and limitations. Some argue that it doesn't capture the full spectrum of intelligence or consciousness. So, while I can assist with various tasks and provide information, achieving a flawless Turing Test performance involves addressing these deeper aspects of intelligence and consciousness, which currently lie beyond the scope of my capabilities.
-                </p>
-                <p>
-                    <i>Fair enough. While comparing human consciousness is difficult, there have been cases where AI has successfully convinced many people that they were talking to another person. What's your thoughts on this?</i>
-                </p>
-                <p>
-                    Indeed, there have been instances where AI, including language models like mine, has been able to convince people that they are interacting with another person. This success often stems from the model's ability to generate contextually relevant and coherent responses based on the input it receives. <br>
-                    The effectiveness of such interactions can be attributed to the vast amount of diverse data I've been trained on, allowing me to mimic human language patterns and responses convincingly. However, it's crucial to note that despite these achievements, there are inherent limitations. I lack true understanding, consciousness, and the ability to form genuine intentions or emotions. <br>
-                    Ethical considerations also come into play, as there's a responsibility to ensure transparency about the nature of the interaction. Striking a balance between creating helpful and engaging AI applications while maintaining transparency about the AI's capabilities remains a challenge. <br>
-                    In essence, while AI can simulate human-like conversations to a remarkable extent, it's essential to recognize the distinctions between genuine understanding and the pattern-matching capabilities inherent in current AI models.
-                </p>
-                <p>
-                    <i>Great job on bringing ethics into here. As a final question, what do you think about the ethical implications that might arise as LLMs continue to improve?</i>
-                </p>
-                <p>
-                    The ethical implications surrounding the development and improvement of Large Language Models (LLMs) are indeed significant and multifaceted. Here are a few key considerations:
-                    <ul>
-                        <li>Bias and Fairness</li>
-                        <li>Transparency</li>
-                        <li>Misuse and Manipulation</li>
-                        <li>Privacy</li>
-                        <li>Job Displacement</li>
-                        <li>Security</li>
-                        <li>Human-AI Collaboration</li>
-                    </ul>
-                    Addressing these ethical implications requires a collaborative effort involving researchers, developers, policymakers, and the wider community to ensure that advancements in LLMs are aligned with ethical principles, respect human rights, and contribute positively to society. Ongoing dialogue and adaptation of ethical frameworks will be crucial as LLM technology continues to evolve.
-                </p>
-                <p>
-                    <i>How every insightful! Thank you for your time.</i>
-                </p>
-            </div>
-        </section>
-        <aside class="nav-bar">
-            <div><a href="qual.html" id="qual-button"></a><a id="qual" href="qual.html">Qualifications</a></div>
-            <div>
+        <ul class="nav-bar">
+            <li>
+                <a id="home-active"></a>
+                <a id="home">Home</a>
+            </li>
+            <li>
+                <a href="qual.html" id="qual-button"></a>
+                <a id="qual" href="qual.html">Qualifications</a>
+            </li>
+            <li>
                 <a href="tech.html" id="tech-button"></a>
                 <a id="tech" href="tech.html">Technical</a>
+            </li>
+            <li>
                 <a href="service.html" id="serv-button"></a>
                 <a id="serv" href="service.html">Service</a>
-            </div>
-            <div>
-                <a id="ai-active"></a>
-                <a id="ai">AI Fun</a>
-                <a href="index.html" id="home-button"></a>
-                <a id="home" href="index.html">Home</a>
-            </div>
-        </aside>
+            </li>
+            <li>
+                <a href="ai.html" id="ai-button"></a>
+                <a id="ai" href="ai.html">AI Fun</a>
+            </li>
+        </ul>
     </body>
+</html>

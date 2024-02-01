@@ -2,13 +2,14 @@
 <html>
     <head>
         <title>Allen Wang: Technical Projects</title>
-        <link rel="stylesheet" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
+        <link rel="stylesheet" id="css" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
     </head>
     <body>
         <script src="functions.js"></script>
         <header>
-            <span class="logo"></span>
+            <img class="logo"  src="Icons/logo.svg" width="100px" height="100px"></img>
             <h1>Technical Portfolio</h1>
+            <button id="css-toggle" onclick="swapCSS()"><img src="Icons/swap.png" width="25px" height="25px"></img></button>
         </header>
         <section class="landing">
             <div class="git projects">
@@ -20,19 +21,26 @@
                 </ul>
             </div>
         </section>
-        <aside class="nav-bar">
-            <div><a href="qual.html" id="qual-button"></a><a id="qual" href="qual.html">Qualifications</a></div>
-            <div>
-                <a id="tech-active"></a>
-                <a id="tech" >Technical</a>
-                <a href="service.html" id="serv-button"></a>
-                <a id="serv" href="service.html">Service</a>
-            </div>
-            <div>
-                <a href="ai.html" id="ai-button"></a>
-                <a id="ai" href="ai.html">AI Fun</a>
+        <ul class="nav-bar">
+            <li>
                 <a href="index.html" id="home-button"></a>
                 <a id="home" href="index.html">Home</a>
-            </div>
-        </aside>
+            </li>
+            <li>
+                <a href="qual.html" id="qual-button"></a>
+                <a id="qual" href="qual.html">Qualifications</a>
+            </li>
+            <li>
+                <a id="tech-active"></a>
+                <a id="tech">Technical</a>
+            </li>
+            <li>
+                <a href="service.html" id="serv-button"></a>
+                <a id="serv" href="service.html">Service</a>
+            </li>
+            <li>
+                <a href="ai.html" id="ai-button"></a>
+                <a id="ai" href="ai.html">AI Fun</a>
+            </li>
+        </ul>
     </body>

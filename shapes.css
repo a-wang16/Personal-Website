@@ -2,114 +2,91 @@
 |*  Shared CSS for all HTML  *|
 \*****************************/
 body{
-    font-family: Helvetica;
-    background-image: url(Images/grid.png), linear-gradient(to top right, rgb(213, 241, 252), rgb(220, 255, 221));
+    font-family: Verdana;
+    background-image: url(Images/grid.png), linear-gradient(to right, rgb(176, 233, 255), rgb(197, 255, 199));
     background-attachment: fixed, fixed;
     background-repeat: repeat, no-repeat;
 }
 header{
-    top: 5px;
-    height: 100px;
+    top: 10px;
+    height: 130px;
+    width: 1000px;
+    display: inline-block;
     position: sticky;
+    z-index: 5;
 }
 h1 {
     display: inline-block;
-    padding: 0 2%;
+    padding: 1% 5%;
     border-radius: 25px;
     font-size: 2em;
-    margin: 20px 0 15px 15px;
+    margin: 30px 3px 10px 10px;
     color: #fff;
-    background-color: #003052;
-    font-weight: normal;
+    background-color: #14565e;
 }
-/* Imported Code - Change Later*/
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
+.logo{
+    float: left;
+    padding: 10px 10px;
+    background-color: #14565e;
+    border-radius: 25px;
+}
+button{
     display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+    border: none;
+    padding: 0.5% 1%;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #14565e;
+}
+button:hover{
+    background-color: #3c96a0;
+}
 
 /*************************************\
 |*  CUSTOM (SCUFFED) NAVIGATION BAR  *|
 \*************************************/
-.nav-bar{
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     position: fixed;
-    padding: 0 10px;
-    border-radius: 25px;
-    height: 210px; 
-    width: 250px;
-    top: 10px;
-    right: 10px;
+    top: 17px;
+    right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    display: inline-block;
-    /*background-image: url(Images/headshot.png);*/
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
-#qual{
-    margin: 0 0 0 20px;
-    padding: 0 2%;
+#home{
+    padding: 1% 3%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
+    top: -21px;
+    right: 12px;
+    color: #fff;
+    background-color: #00521b;
+}
+#home:link{
+    text-decoration: none;
+}
+#home-button{
+    display: inline-block;
+    position: relative;
+    background: url(Icons/button.svg);
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#qual{
+    padding: 1% 3%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    top: -37px;
+    right: 12px;
     color: #fff;
     background-color: #00521b;
 }
@@ -120,7 +97,7 @@ h1 {
     display: inline-block;
     position: relative;
     background: url(Icons/button.svg);
-    top: 20px;
+    top: 3px;
     left: 100px;
     width: 50px;
     height: 50px;
@@ -128,11 +105,12 @@ h1 {
 }
 
 #tech{
-    margin: 0 0 0 -40px;
-    padding: 0 2%;
+    padding: 1% 3%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
+    top: -32px;
+    right: 37px;
     color: #fff;
     background-color: #00521b;
 }
@@ -143,19 +121,20 @@ h1 {
     display: inline-block;
     position: relative;
     background: url(Icons/button.svg);
-    top: 20px;
-    left: 30px;
+    top: -12px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
 
 #serv{
-    margin: 0 0 0 7px;
-    padding: 0 2%;
+    padding: 1% 3%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
+    top: -29px;
+    right: 24px;
     color: #fff;
     background-color: #00521b;
 }
@@ -165,20 +144,21 @@ h1 {
 #serv-button{
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 69px;
     background: url(Icons/button.svg);
+    top: -7px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
 
 #ai{
-    margin: 50px 0 0 0;
-    padding: 0 2%;
+    padding: 1% 3%;
     border-radius: 5px;
     display: inline-block;
     position: relative;
+    top: -22px;
+    right: 17px;
     color: #fff;
     background-color: #00521b;
 }
@@ -188,44 +168,20 @@ h1 {
 #ai-button{
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 60px;
     background: url(Icons/button.svg);
+    top: -2px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
 }
 
-#home{
-    margin: 0 0 0 -33px;
-    padding: 0 2%;
-    border-radius: 5px;
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    background-color: #00521b;
-}
-#home:link{
-    text-decoration: none;
-}
-#home-button{
-    display: inline-block;
-    position: relative;
-    top: 20px;
-    left: 24px;
-    background: url(Icons/button.svg);
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-}
-
-/* A lot of redundant code, but my current skills are too limited :( */
+/* A lot of redundant code, but my current skills are too limited 😔 */
 #home-active{
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 24px;
     background: url(Icons/button-active.svg);
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
@@ -234,7 +190,7 @@ h1 {
     display: inline-block;
     position: relative;
     background: url(Icons/button-active.svg);
-    top: 20px;
+    top: 3px;
     left: 100px;
     width: 50px;
     height: 50px;
@@ -244,8 +200,8 @@ h1 {
     display: inline-block;
     position: relative;
     background: url(Icons/button-active.svg);
-    top: 20px;
-    left: 30px;
+    top: -12px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
@@ -253,9 +209,9 @@ h1 {
 #serv-active{
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 69px;
     background: url(Icons/button-active.svg);
+    top: -7px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
@@ -263,9 +219,9 @@ h1 {
 #ai-active{
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 60px;
     background: url(Icons/button-active.svg);
+    top: -2px;
+    left: 100px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
@@ -273,37 +229,35 @@ h1 {
 
 
 /*************************************\
-|*    HTML Specific Formatting/ETC   *|
+|*      HTML Specific Formatting     *|
 \*************************************/
 
 /* Home/Landing Page */
-#self-photo{
-    display: inline-block;
+.landing{
     position: relative;
-    top: 10px;
+    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
+    border-radius: 25px;
+}
+
+#image-desc{
+    display: grid;
+    position: relative;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#self-photo{
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 25px;
+    padding: 2%, 2%;
 }
-#image-desc{
-    display: inline-block;
-    position: relative;
-    top: 5px;
-    left: 20px;
-    padding: 0 1%;
-    border-radius: 25px;
-    text-align: center;
-    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
-}
+
 .about-me{
-    display: inline-block;
+    display: grid;
     position: relative;
-    top: 20px;
-    left: 20px;
-    padding: 0 1%;
-    margin: 0 0 0 10px;
     font-size: 1.5em;
     border-radius: 25px;
-    background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
 }

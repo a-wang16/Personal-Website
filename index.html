@@ -3,20 +3,19 @@
     <head>
         <title>Allen Wang: Landing</title>
         <link rel="stylesheet" id="css" type="text/css" href="shapes.css"></link> <!-- Default CSS will be Shapes. -->
+        <script src="functions.js"></script>
     </head>
     <body>
-        <script src="functions.js"></script>
         <header>
             <img class="logo"  src="Icons/logo.svg" width="100px" height="100px"></img>
             <h1>Home</h1>
-            <label class="switch">
-                <input type="checkbox" id="css-toggle" onclick="swapCSS()">
-                <span class="slider round"></span>
-            </label>
+            <button id="css-toggle" title="Swap CSS" onclick="swapCSS()">
+                <img src="Icons/swap.png" width="25px" height="25px"></img>
+            </button>
         </header>
         <section class="landing">
             <div id="image-desc">
-                <img id="self-photo" src="Images/me.jpg" width="800px" height="800px">
+                <img id="self-photo" src="Images/me.jpg" width="500px" height="500px">
                 <p>
                     <i>Figure 1. There's only one figure (me), so it's "figure 1".</i>
                 </p>
@@ -33,29 +32,35 @@
                     </ul>
                 </p>
                 <p>
-                    Feel free to explore what I have to offer in the <u>Qualifications</u> page. <br>
-                    If you're interested in my projects, turn your attention to the <u>Technical</u> page.<br>
-                    Otherwise, turn your attention to the <u>Service</u> page for how I gave back to the community. <br>
-                    If you're looking for something more silly, check out the <u>AI Fun</u>
-                    page for an interesting "experiment" I tried!
+                    Feel free to explore what I have to offer in the <a href="qual.html">Qualifications</a> page. <br>
+                    If you're interested in my projects, turn your attention to the <a href="tech.html">Technical</a> page.<br>
+                    Otherwise, turn your attention to the <a href="service.html">Service</a> page for how I gave back to the community. <br>
+                    If you're looking for something more silly, check out the <a href="tech.html">AI Fun</a>
+                    page! (Warning, you might not be able to come back!)
                 </p>
-                <p>Temporary: <a href="landing-no-css.html">No CSS Landing Page</a></p>
             </div>
         </section>
-        <aside class="nav-bar"> <!-- This custom nav bar was NOT WORTH IT (without libraries) -->
-            <div><a href="qual.html" id="qual-button"></a><a id="qual" href="qual.html">Qualifications</a></div>
-            <div>
-                <a href="tech.html" id="tech-button"></a>
-                <a id="tech" href="tech.html">Technical</a>
-                <a href="service.html" id="serv-button"></a>
-                <a id="serv" href="service.html">Service</a>
-            </div>
-            <div>
-                <a href="ai.html" id="ai-button"></a>
-                <a id="ai" href="ai.html">AI Fun</a>
+        <ul class="nav-bar">
+            <li>
                 <a id="home-active"></a>
                 <a id="home">Home</a>
-            </div>
-        </aside>
+            </li>
+            <li>
+                <a href="qual.html" id="qual-button"></a>
+                <a id="qual" href="qual.html">Qualifications</a>
+            </li>
+            <li>
+                <a href="tech.html" id="tech-button"></a>
+                <a id="tech" href="tech.html">Technical</a>
+            </li>
+            <li>
+                <a href="service.html" id="serv-button"></a>
+                <a id="serv" href="service.html">Service</a>
+            </li>
+            <li>
+                <a href="ai.html" id="ai-button"></a>
+                <a id="ai" href="ai.html">AI Fun</a>
+            </li>
+        </ul>
     </body>
 </html>
