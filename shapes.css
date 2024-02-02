@@ -266,7 +266,7 @@ section{
 }
 
 .about-me{
-    padding: 0 3% 3% 3%;
+    padding: 3%;
     background-image: linear-gradient(to top right, rgb(135, 183, 255), rgb(170, 221, 223));
     font-size: 1.4em;
     border-radius: 25px;
